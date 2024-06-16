@@ -18,7 +18,7 @@ function App() {
   const url = useSelector((state) => state.home);
 
   useEffect(() => {
-    fetchApiConfig();
+    fetchApiConfig();``
   }, []);
   const fetchApiConfig = () => {
     fetchDataFromApi("/configuration").then((res) => {
